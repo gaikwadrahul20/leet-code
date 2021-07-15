@@ -7,7 +7,7 @@
 #                     return [i, j]
 # O(n)
 def twoSum(nums, target):
-         vals = dict()
+        vals = dict()
         for i in range(len(nums)):
             val = vals.get(nums[i])
             if(val is not None):

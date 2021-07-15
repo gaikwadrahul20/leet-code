@@ -14,4 +14,4 @@ class Solution:
         if(sc < len(image[0])-1 and image[sr][sc+1] == temp):
             self.floodFill(image, sr, sc+1, newColor)
         return image
-#NOte: do this problem using BFS and stack (not system stack)
+#NOte: do this problem using DFS and stack (not system stack)
