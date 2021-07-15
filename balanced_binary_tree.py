@@ -4,25 +4,29 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Height:
-    def __init__(self):
-        self.height = 0
+# class Height:
+#     def __init__(self):
+#         self.height = 0
 
-class Solution:
-    def isBalanced(self, root: TreeNode, height = Height()) -> bool:
-        if root is None:
-            height.height = 0
-            return True
+# class Solution:
+#     def isBalanced(self, root: TreeNode, height = Height()) -> bool:
+#         if root is None:
+#             height.height = 0
+#             return True
         
-        left_height = Height()
-        right_height = Height()
+#         left_height = Height()
+#         right_height = Height()
         
-        lh = self.isBalanced(root.left, left_height)
-        rh = self.isBalanced(root.right, right_height)
+#         lh = self.isBalanced(root.left, left_height)
+#         rh = self.isBalanced(root.right, right_height)
         
-        height.height = max(left_height.height, right_height.height) + 1
+#         height.height = max(left_height.height, right_height.height) + 1
         
-        if (abs(left_height.height-right_height.height)<= 1):
-            return lh and rh
+#         if (abs(left_height.height-right_height.height)<= 1):
+#             return lh and rh
         
-        return False
+#         return False
+
+str = "Testing"
+for val in str:
+    print(val)
