@@ -67,4 +67,4 @@ class Solution:
 obj = Solution()
 print(obj.lastStoneWeight([195,940,193,993,760,587,128,339,955,393,768,666,277,209,737,261,762,11,47,912,905,560,333,55,107,91,424,74,379,827]))
 
-Failing for one test case
+# Failing for one test case
